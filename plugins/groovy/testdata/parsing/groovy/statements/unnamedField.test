@@ -1,0 +1,25 @@
+class Steps {
+   def
+}
+-----
+Groovy script
+  Class definition
+    Modifiers
+      <empty list>
+    PsiElement(class)('class')
+    PsiWhiteSpace(' ')
+    PsiElement(identifier)('Steps')
+    PsiWhiteSpace(' ')
+    Extends clause
+      <empty list>
+    Implements clause
+      <empty list>
+    Type definition body
+      PsiElement({)('{')
+      PsiWhiteSpace('\n   ')
+      Modifiers
+        PsiElement(def)('def')
+      PsiElement(new line)('\n')
+      PsiErrorElement:Identifier, string literal or '(' expected
+        <empty list>
+      PsiElement(})('}')
