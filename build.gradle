@@ -3,7 +3,7 @@ apply plugin: 'checkstyle'
 
 
 task checkstyle(type: Checkstyle){
-    configFile = file("../tt-rules-checkstyle.xml")
+    configFile = file("tt-rules-checkstyle.xml")
     source = fileTree('java')
     ignoreFailures = true
     classpath = files()
